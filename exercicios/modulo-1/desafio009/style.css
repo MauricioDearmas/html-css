@@ -1,0 +1,10 @@
+body{
+    text-align: center;
+    background-color: rgb(58, 56, 56);
+}
+h1, p, a{
+    color: aliceblue;
+}
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    background-image: linear-gradient(to right, #F29F05, #F28705, #F24607);
+}
+
+h1 {
+    color:#0B438C;   
+    font-size: 3em;
+    background-color: #F288C2;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+    margin: auto;
+}
+
+h2 {
+    color:#0B438C;
+    background-color: #F288C2;
+    border-radius: 3px;
+    width: fit-content;
+}
+
+p {
+    color: #55002f;
+    background-color: aliceblue;
+}

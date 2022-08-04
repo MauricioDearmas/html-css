@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <p>Para fazer imagens dinâmicas, precisamos utilizar a tag picture. Dentro da tag picture, adicionamos uma imagem com a tag img e as demais com a tag source media type. Isso precisa ser feito em ordem</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="./imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="./imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem grande">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios com HTML5</p>
+    <audio src="midia/fat-man.mp3" controls preload="metadata"></audio>
+    
+    <audio controls preload="metadata">
+       <source src="midia/guanacast-33.mp3" type="audio/mp3">
+       <source src="midia/OutOnMySkateboard.mp3" type="audio/mp3">
+       <p>Seu navegador não consegue reproduzir este áudio. <a href="midia/OutOnMySkateboard.mp3">Baixe aqui</a></p>
+    </audio>
+    
+</body>
+</html>
